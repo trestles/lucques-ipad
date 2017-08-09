@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B750EDA1F3A8A81000CF2A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B750ED91F3A8A81000CF2A3 /* AppDelegate.swift */; };
+		6B750EE11F3A8A81000CF2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B750EE01F3A8A81000CF2A3 /* Assets.xcassets */; };
+		6B750EE41F3A8A81000CF2A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B750EE21F3A8A81000CF2A3 /* LaunchScreen.storyboard */; };
+		6B750EEE1F3A8C2C000CF2A3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B750EED1F3A8C2C000CF2A3 /* MainViewController.swift */; };
+		6B750EF01F3A8CAF000CF2A3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B750EEF1F3A8CAF000CF2A3 /* Models.swift */; };
+		6B750EF21F3AA779000CF2A3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B750EF11F3AA779000CF2A3 /* MenuViewController.swift */; };
+		6B750EF41F3AD8CC000CF2A3 /* MenuItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B750EF31F3AD8CC000CF2A3 /* MenuItemViewController.swift */; };
+		F76439CA1944EBF1EE679738 /* Pods_lucques_ipad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91AA901E00A6D6E528BF6C7F /* Pods_lucques_ipad.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20F6B2012FD58EDF427349A5 /* Pods-lucques-ipad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lucques-ipad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lucques-ipad/Pods-lucques-ipad.debug.xcconfig"; sourceTree = "<group>"; };
+		6901B760A528DB7530454604 /* Pods-lucques-ipad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lucques-ipad.release.xcconfig"; path = "Pods/Target Support Files/Pods-lucques-ipad/Pods-lucques-ipad.release.xcconfig"; sourceTree = "<group>"; };
+		6B750ED61F3A8A81000CF2A3 /* lucques-ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lucques-ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B750ED91F3A8A81000CF2A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B750EE01F3A8A81000CF2A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B750EE31F3A8A81000CF2A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B750EE51F3A8A81000CF2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B750EED1F3A8C2C000CF2A3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6B750EEF1F3A8CAF000CF2A3 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		6B750EF11F3AA779000CF2A3 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		6B750EF31F3AD8CC000CF2A3 /* MenuItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemViewController.swift; sourceTree = "<group>"; };
+		91AA901E00A6D6E528BF6C7F /* Pods_lucques_ipad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lucques_ipad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B750ED31F3A8A80000CF2A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76439CA1944EBF1EE679738 /* Pods_lucques_ipad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		581C704EB218A4798AA799B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20F6B2012FD58EDF427349A5 /* Pods-lucques-ipad.debug.xcconfig */,
+				6901B760A528DB7530454604 /* Pods-lucques-ipad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B750ECD1F3A8A80000CF2A3 = {
+			isa = PBXGroup;
+			children = (
+				6B750ED81F3A8A81000CF2A3 /* lucques-ipad */,
+				6B750ED71F3A8A81000CF2A3 /* Products */,
+				581C704EB218A4798AA799B7 /* Pods */,
+				C073D6CBDB5A9751F7B90F2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B750ED71F3A8A81000CF2A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B750ED61F3A8A81000CF2A3 /* lucques-ipad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B750ED81F3A8A81000CF2A3 /* lucques-ipad */ = {
+			isa = PBXGroup;
+			children = (
+				6B750EED1F3A8C2C000CF2A3 /* MainViewController.swift */,
+				6B750EF11F3AA779000CF2A3 /* MenuViewController.swift */,
+				6B750EF31F3AD8CC000CF2A3 /* MenuItemViewController.swift */,
+				6B750ED91F3A8A81000CF2A3 /* AppDelegate.swift */,
+				6B750EE01F3A8A81000CF2A3 /* Assets.xcassets */,
+				6B750EE21F3A8A81000CF2A3 /* LaunchScreen.storyboard */,
+				6B750EE51F3A8A81000CF2A3 /* Info.plist */,
+				6B750EEF1F3A8CAF000CF2A3 /* Models.swift */,
+			);
+			path = "lucques-ipad";
+			sourceTree = "<group>";
+		};
+		C073D6CBDB5A9751F7B90F2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91AA901E00A6D6E528BF6C7F /* Pods_lucques_ipad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B750ED51F3A8A80000CF2A3 /* lucques-ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B750EE81F3A8A81000CF2A3 /* Build configuration list for PBXNativeTarget "lucques-ipad" */;
+			buildPhases = (
+				5CCF328769E7CC6FABB95BB4 /* [CP] Check Pods Manifest.lock */,
+				6B750ED21F3A8A80000CF2A3 /* Sources */,
+				6B750ED31F3A8A80000CF2A3 /* Frameworks */,
+				6B750ED41F3A8A80000CF2A3 /* Resources */,
+				041A07370C15441B9146CE06 /* [CP] Embed Pods Frameworks */,
+				8369D1DF768D375F43C6AD0B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lucques-ipad";
+			productName = "lucques-ipad";
+			productReference = 6B750ED61F3A8A81000CF2A3 /* lucques-ipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B750ECE1F3A8A80000CF2A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Trestles;
+				TargetAttributes = {
+					6B750ED51F3A8A80000CF2A3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6B750ED11F3A8A80000CF2A3 /* Build configuration list for PBXProject "lucques-ipad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B750ECD1F3A8A80000CF2A3;
+			productRefGroup = 6B750ED71F3A8A81000CF2A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B750ED51F3A8A80000CF2A3 /* lucques-ipad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B750ED41F3A8A80000CF2A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B750EE41F3A8A81000CF2A3 /* LaunchScreen.storyboard in Resources */,
+				6B750EE11F3A8A81000CF2A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		041A07370C15441B9146CE06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lucques-ipad/Pods-lucques-ipad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CCF328769E7CC6FABB95BB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8369D1DF768D375F43C6AD0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lucques-ipad/Pods-lucques-ipad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B750ED21F3A8A80000CF2A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B750EF01F3A8CAF000CF2A3 /* Models.swift in Sources */,
+				6B750EF41F3AD8CC000CF2A3 /* MenuItemViewController.swift in Sources */,
+				6B750EEE1F3A8C2C000CF2A3 /* MainViewController.swift in Sources */,
+				6B750EDA1F3A8A81000CF2A3 /* AppDelegate.swift in Sources */,
+				6B750EF21F3AA779000CF2A3 /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B750EE21F3A8A81000CF2A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B750EE31F3A8A81000CF2A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B750EE61F3A8A81000CF2A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B750EE71F3A8A81000CF2A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B750EE91F3A8A81000CF2A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F6B2012FD58EDF427349A5 /* Pods-lucques-ipad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lucques-ipad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.trestles.lucques-ipad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6B750EEA1F3A8A81000CF2A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6901B760A528DB7530454604 /* Pods-lucques-ipad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lucques-ipad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.trestles.lucques-ipad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B750ED11F3A8A80000CF2A3 /* Build configuration list for PBXProject "lucques-ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B750EE61F3A8A81000CF2A3 /* Debug */,
+				6B750EE71F3A8A81000CF2A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B750EE81F3A8A81000CF2A3 /* Build configuration list for PBXNativeTarget "lucques-ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B750EE91F3A8A81000CF2A3 /* Debug */,
+				6B750EEA1F3A8A81000CF2A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B750ECE1F3A8A80000CF2A3 /* Project object */;
+}
